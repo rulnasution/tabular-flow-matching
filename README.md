@@ -1,6 +1,19 @@
-# Tabular Flow Matching
+# (Accepted at TMLR) Tabular Flow Matching for Data Synthesis
 
-This is the repository of experiments of "Flow Matching for Tabular Data Synthesis" paper.
+<p align="center">
+  <!-- <a href="https://github.com/hengruizhang98/tabsyn/blob/main/LICENSE">
+    <img alt="GitHub License" src="https://img.shields.io/badge/license-Apache 2.0-green">
+  </a> -->
+  <a href="https://openreview.net/forum?id=RdOjoAa66L">
+    <img alt="Openreview" src="https://img.shields.io/badge/review-OpenReview-red">
+  </a>
+  <a href="https://arxiv.org/abs/2512.00698">
+    <img alt="Paper URL" src="https://img.shields.io/badge/arxiv-2310.09656-blue">
+  </a>
+</p>
+
+
+This is the implementation repository of **Flow Matching for Tabular Data Synthesis** paper by Bahrul Ilmi Nasution, Floor Eijkelboom, Mark Elliot, Richard Allmendinger, Christian A. Naesseth
 
 This github consists of the algorithm for tabular flow matching, along with its benchmarks. The folders are
 - /tabsyn : TabSyn (Hybrid VAE with diffusion for training the latent variables) from Zhang et al. (2024)
