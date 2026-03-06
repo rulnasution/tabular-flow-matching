@@ -1,0 +1,33 @@
+{
+    "name": "churn",
+    "task_type": "binclass",
+    "header": "infer",
+    "column_names": [
+        "CreditScore",
+        "Geography",
+        "Gender",
+        "Age",
+        "Tenure",
+        "Balance",
+        "NumOfProducts",
+        "HasCrCard",
+        "IsActiveMember",
+        "EstimatedSalary",
+        "Exited"
+    ],
+    "num_col_idx": [0, 3, 5, 9],
+    "cat_col_idx": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        8
+    ],
+    "target_col_idx": [
+        10
+    ],
+    "file_type": "csv",
+    "data_path": "/mnt/hum01-home01/p88346bn/test/tab-ddpm/census-data2/Churn.csv",
+    "test_path": null
+}

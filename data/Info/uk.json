@@ -1,0 +1,29 @@
+{
+    "name": "uk",
+    "task_type": "binclass",
+    "header": "infer",
+    "column_names": ["AREAP", "AGE", "COBIRTH", "ECONPRIM", "ETHGROUP", 
+    "FAMTYPE", "HOURS", "LTILL", "MSTATUS", "QUALNUM", "RELAT", "SEX", "SOCLASS", "TRANWORK", "TENURE"],
+    "num_col_idx": [1],
+    "cat_col_idx": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+    ],
+    "target_col_idx": [
+        14
+    ],
+    "file_type": "csv",
+    "data_path": "/mnt/hum01-home01/p88346bn/test/tab-ddpm/census-data2/UK.csv",
+    "test_path": null
+}

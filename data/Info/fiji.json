@@ -1,0 +1,33 @@
+{
+    "name": "fiji",
+    "task_type": "binclass",
+    "header": "infer",
+    "column_names": ["PROV", "TENURE", "RELATE", "SEX", "AGE", "ETHNIC", "MARST", "RELIGION", "BPLPROV", "RESPROV", "RESSTAT", "SCHOOL", 
+    "EDATTAIN", "TRAVEL", "WORKTYPE", "OCC1", "IND2", "CLASSWKR", "MIG5YR"],
+    "num_col_idx": [4],
+    "cat_col_idx": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+    ],
+    "target_col_idx": [
+        6
+    ],
+    "file_type": "csv",
+    "data_path": "/mnt/hum01-home01/p88346bn/test/tab-ddpm/census-data2/Fiji.csv",
+    "test_path": null
+}

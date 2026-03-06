@@ -1,0 +1,77 @@
+# pytorch data files
+
+# **/data/*
+
+# all folders with following names
+**/ckpt/*
+**/__pycache__/*
+**/.ipynb_checkpoints/*
+
+
+
+# all synthetic data folders
+/synthetic/
+/workspace/
+
+/eval/*/
+# /eval/combine_*/
+# /eval/combine_4k_tabsynarch
+# /eval/combine_10k_tabsynarch_lrsched
+# /eval/combine_10k_tabsynarch_t_tabsyn
+# /eval/combine_512_5
+# /eval/density
+# /eval/mle
+# /eval/quality
+# /eval/urisk
+
+## all files
+*.out
+*.slurm
+*.yml
+*.job
+*.pyc
+
+## all data files
+*.npy
+*.csv
+*.zip
+*.data
+*.test
+*.xls
+
+# /baselines/bayestabvfm/
+/baselines/codi/
+/baselines/goggle/
+/baselines/great/
+/baselines/smote/
+/baselines/tabnvfm_copy/
+/baselines/tabnvfm/
+/baselines/tabvfm/
+/baselines/tabtvfm/
+/baselines/tabrvfm/
+/baselines/tabvvfm2/
+/baselines/tabvvfm3/
+/baselines/tabvvfmx/
+/baselines/tab*vfm_optuna/
+
+/tabsynfd/
+/[archive]tabsynvlowz-rep
+/tabsynvlow*
+/tabdiff_src
+
+# /tabsynbayes/
+
+/babi.py
+/eval_impute.py
+/impute.py
+/temp_*.py
+
+/main_bayes.py
+/flow_run_bayes.py
+
+/readme-old.md
+/flow_run_less_sample.py
+/flow_desc.py
+/vlow_run.py
+/z_bash_old_archived.py
+
