@@ -1,14 +1,14 @@
 # (Accepted at TMLR) Tabular Flow Matching for Data Synthesis
 
 <p align="center">
-  <!-- <a href="https://github.com/hengruizhang98/tabsyn/blob/main/LICENSE">
+  <a href="https://github.com/rulnasution/tabular-flow-matching/blob/main/LICENSE">
     <img alt="GitHub License" src="https://img.shields.io/badge/license-Apache 2.0-green">
-  </a> -->
+  </a>
   <a href="https://openreview.net/forum?id=RdOjoAa66L">
     <img alt="Openreview" src="https://img.shields.io/badge/review-OpenReview-red">
   </a>
   <a href="https://arxiv.org/abs/2512.00698">
-    <img alt="Paper URL" src="https://img.shields.io/badge/arxiv-2310.09656-blue">
+    <img alt="Paper URL" src="https://img.shields.io/badge/arxiv-2512.00698-blue">
   </a>
 </p>
 
@@ -123,7 +123,7 @@ Finally, run the following command to process the UDF dataset:
 
 ## Training Models
 
-Direct training can be seen in ```example_training_job.slurm```. This part is if you want to do step by step.
+Direct training can be seen in ```example_training_job.slurm```. This part is if you want to do step by step and want to do it in slurm.
 
 For baseline methods, use the following command for training:
 
@@ -132,9 +132,9 @@ python main.py --dataname [NAME_OF_DATASET] --method [NAME_OF_BASELINE_METHODS] 
 ```
 
 Options of [NAME_OF_DATASET]: adult, default, shoppers, magic, beijing, news
-Options of [NAME_OF_BASELINE_METHODS]: smote, goggle, great, stasy, codi, tabddpm
+Options of [NAME_OF_BASELINE_METHODS]: tabddpm, tabsyn, tabvvfm, tabsynflow
 
-For Tabsyn, use the following command for training:
+For Tabsyn or TabSynFlow, use the following command for training:
 
 ```
 # train VAE first
