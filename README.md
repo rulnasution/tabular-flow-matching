@@ -1,4 +1,4 @@
-# (Accepted at TMLR) Tabular Flow Matching for Data Synthesis
+# (Published at TMLR) Tabular Flow Matching for Data Synthesis
 
 <p align="center">
   <a href="https://github.com/rulnasution/tabular-flow-matching/blob/main/LICENSE">
@@ -23,7 +23,7 @@ Our algorithms are in
 
 - /tabsynflow: TabSynFlow (Hybrid VAE with flow matching for training the latent variables) 
 - /baselines/tabvvfm: TabVFM/TabbyFlow (Tabular Variational Flow Matching) using **MLP**
-- /baselines/tabtvfm: TabVFM/TabbyFlow (Tabular Variational Flow Matching) **Transformers**
+- /baselines/tabtvfm: TabVFM/TabbyFlow (Tabular Variational Flow Matching) using **Transformers**
 
 Special credit to https://github.com/amazon-science/tabsyn for providing the initial code framework.
 
